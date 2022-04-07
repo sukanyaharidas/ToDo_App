@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/4225b76be0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="login">
+
+
+  <section style="margin-top:10%;">
+    <div class="container-fluid" >
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          
+        <!-- form start -->
+        <form class="form-container " action=""  onsubmit="return check(uname,password,login);"> 
+          <h2 style="text-align: center;padding-top:1em;">Login Form</h2>
+          <div class="mb-3 px-5 py-3">
+            <label for="exampleInputEmail1" class="form-label">User Name</label>
+            <input type="text" id="uname" class="form-control"  aria-describedby="emailHelp" required placeholder="Enter your usr name" > 
+            <span id="msg1"></span>
+          </div>
+          <div class="mb-3 px-5 py-1">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+            <span id="msg2"></span>
+          </div>
+         
+          <div class="button mb-3 px-5 py-3">
+            <button type="submit" id="btnn" class="btn bt-success form-control" ><h6>LOG IN</h6></button>   
+        
+          </div>
+           </form>
+        <!-- form end -->
+       </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div>
+  <section>
+    <script type="text/javascript" src="login.js"></script>
+</body>
+</html>

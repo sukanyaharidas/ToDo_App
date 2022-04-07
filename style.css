@@ -1,0 +1,59 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#btnn:hover{
+    background-color: white;
+    color:black;
+  }
+
+  #btnn{
+
+   margin-bottom:2em;
+   background-color:rgb(15, 118, 253);
+   color:white;
+  }
+  form{
+    box-shadow: 0 0 7px 7px #00000015;
+    background-color: rgb(134, 190, 238);
+  }
+
+  body#login{
+      background-image: url("bkg.jpg");
+  }
+
+
+
+
+  
+input .chk{
+    background-color: green;
+    color:blue;
+}
+
+.navbar{
+    background-color: blue;
+}
+li{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#todo, #logout{
+    color:white;
+}
+  #list-profile-list{
+    background-color: #98FB98;
+    outline: none;
+    border:none;
+    color:rgb(80, 28, 28);
+}
+#list-profile-list:hover{
+       background-color: rgb(51, 168, 110);
+}
+ 
