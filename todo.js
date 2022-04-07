@@ -42,7 +42,7 @@ function myFunc()
                   else if(total==5)
                    {
                     
-                       resolve("Congratulations!!! your 5 tasks are completed");
+                       resolve("Congrats. 5 Tasks have been Successfully Completed");
                         i++;
                    }           
                }             
