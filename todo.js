@@ -39,19 +39,17 @@ function myFunc()
                        total=total+1;
     
                    }
-                        if(total==5)
-                   {
-                       resolve("Congrats. 5 Tasks have been Successfully Completed");
-                        
-                   }  
-                   else{
-                       i++;
-                  
+                 
                }  
               
                   
                    
-            
+          if(total==5)
+                   {
+                    
+                       resolve("Congratulations!!! your 5 tasks are completed");
+                        
+                   }    
             
     }              
     );
